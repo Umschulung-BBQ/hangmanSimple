@@ -45,7 +45,7 @@ public class Game {
 
     }
 
-    private boolean exists(char buchstabe){
+    private boolean exists(char buchstabe){ // Checks if the letter is in the selected word.
         this.lastPos = this.wort.toLowerCase().indexOf(buchstabe);
         return this.lastPos > -1;
     }
